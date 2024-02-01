@@ -1,4 +1,5 @@
-# (de)cipher
+<img src="./repo_assets/Cover img.png" alt="Cover image" style="height: 400px;"/>
+
 > Python program pro zakódování/dekódování textu s podporou diakritiky a speciálních znaků, inspirován caesarovou šifrou.
 
 ## Funkce
