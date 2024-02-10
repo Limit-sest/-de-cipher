@@ -29,7 +29,7 @@ def decipherbrute(fraze=None):
 		print(posun," - ", end="", flush=True)
 		for char in fraze:
 			if char in cz_abc:
-				order = ((cz_abc.index(char)+1)+posun)%len(cz_abc) # +1 musi byt protoze kdyz by bylo len()%len()=0 ale ma to byt len()
+				order = ((cz_abc.index(char)+1)-posun)%len(cz_abc) # +1 musi byt protoze kdyz by bylo len()%len()=0 ale ma to byt len()
 				print(cz_abc[order-1], end="")
 			else:
 				print(char, end="")
